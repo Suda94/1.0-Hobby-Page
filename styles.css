@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 1em 2em 2em 1em; */
+}
+
+.navbar a {
+  padding: 0.5em;
+}
+
+/* Sections */
+.Info-pager h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Info-pager {
+  text-align: justify;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-1 {
+  margin: 1rem auto -1rem auto;
+  max-width: 45em;
+  height: 1rem;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    black 2px,
+    black 3px,
+    transparent 3px
+  );
+}
+
+.line-2 {
+  margin: 1rem auto -1rem auto;
+  max-width: 45em;
+  height: 2rem;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    black 2px,
+    black 3px,
+    transparent 3px
+  );
+}
+
+/* listed-images */
+.Info-pager-benefit {
+  text-align: center;
+}
+
+.listed-images {
+  margin: 1rem auto -1rem auto;
+  max-width: 45em;
+  text-align: center;
+  list-style: none;
+  font-weight: 40px;
+}
+
+.listed-images img {
+  width: 200px;
+}
+
+.images1 {
+  align-items: ;
+}
