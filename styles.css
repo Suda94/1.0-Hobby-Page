@@ -19,6 +19,11 @@ header {
   /* margin: 1em 2em 2em 1em; */
 }
 
+/* Date */
+#date {
+  margin-left: 4rem;
+}
+
 .navbar a {
   padding: 0.5em;
 }
@@ -27,6 +32,10 @@ header {
 .Info-pager h2 {
   text-align: center;
   padding-top: 2rem;
+}
+
+.Info-pager h2 :hover {
+  color: brown;
 }
 
 .Info-pager {
@@ -76,9 +85,25 @@ header {
 }
 
 .listed-images img {
-  width: 200px;
+  width: 20rem;
+  height: 10rem;
+  border: solid 3px;
 }
 
 .images1 {
-  align-items: ;
+  margin-left: 10rem;
+}
+.images2 {
+  margin-right: 10rem;
+}
+
+/* video tutorial */
+
+.Info-video {
+  display: flex;
+}
+
+.video-tutorial {
+  display: flex;
+  margin: 0 auto 0 auto;
 }
