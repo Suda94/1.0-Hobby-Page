@@ -6,26 +6,35 @@
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: navy;
 }
 
 /* Header */
 header {
-  background-color: aqua;
+  background-color: #333;
+  color: beige;
   display: flex;
   flex-wrap: nowrap;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
-  /* margin: 1em 2em 2em 1em; */
+  padding: 0em 2em;
 }
 
 /* Date */
 #date {
-  margin-left: 20rem;
+  margin-left: 2rem;
 }
 
 .navbar a {
   padding: 0.5em;
+  color: aliceblue;
+}
+.navbar :hover {
+  color: #f03e3e;
 }
 
 /* Sections */
@@ -43,6 +52,7 @@ header {
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
 }
 
 .line-1 {
@@ -84,6 +94,11 @@ header {
   font-weight: 40px;
 }
 
+.listed-images p {
+  text-decoration: overline;
+  padding-top: 1rem;
+}
+
 .listed-images img {
   width: 20rem;
   height: 10rem;
@@ -101,9 +116,71 @@ header {
 
 .Info-video {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .video-tutorial {
   display: flex;
-  margin: 0 auto 0 auto;
+  margin: auto;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-section {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-section.about {
+  width: 40%;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subscribe p {
+  margin-bottom: 10px;
+}
+
+.subscribe input[type="email"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscribe button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4c4c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #f03e3e;
+}
+
+.footer-bottom {
+  border-top: 1px solid #777;
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
 }
