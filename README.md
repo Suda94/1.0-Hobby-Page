@@ -12,5 +12,5 @@ The page contain a hobby, that the creator like do.
 - [x] A list is visible somewhere on the page<br>
 - [ ] Everything on the page fits on any screen size, without content overflowing or being cut off <br>
 - [ ] A user can click on a link that takes them to another website <br>
-- [ ] The page has a header element, and a footer element <br>
-- [ ] Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
+- [x] The page has a header element, and a footer element <br>
+- [x] Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
