@@ -1,7 +1,7 @@
 # [1.0-Hobby-Page-FAC:](https://suda94.github.io/1.0-Hobby-Page/)
 
 Learn to build a simple web page using HTML, CSS & JS.
-The page contain a hobby, that the creator like do.
+The page contain a hobby, that the creator like do. The page follow a simple yet trying to follow a symantic coding style to clean the type and easier to read the code
 
 # Requirements:
 
