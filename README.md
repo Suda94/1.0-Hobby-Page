@@ -6,7 +6,7 @@ The page contain a hobby, that the creator like do. The page follow a simple yet
 # Requirements:
 
 - [x] The page has a title which informs the user what the site is about<br>
-- [x] The page has a logical layout and clear structure <br>
+- [ ] The page has a logical layout and clear structure <br>
 - [x] There are images on the page, with alt-text where appropriate<br>
 - [x] The page is visually interesting, for example with borders or colours <br>
 - [x] A list is visible somewhere on the page<br>
